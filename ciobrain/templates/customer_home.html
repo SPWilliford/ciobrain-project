@@ -1,0 +1,28 @@
+{% extends "shared_base.html" %}
+
+{% block title %}Customer Home{% endblock %}
+
+{% block content %}
+<div class="customer-dashboard">
+    <h2 class="centered-title">Customer Dashboard</h2>
+
+    <!-- AI Reply Section -->
+    <div class="reply-section">
+        <div class="reply-content">
+            <p>response will be here</p>
+        </div>
+    </div>
+
+    <!-- Customer Prompt Section -->
+    <div class="prompt-section">
+        <form action="#" method="POST">
+            <label for="prompt">Enter your prompt:</label>
+            <textarea id="prompt" name="prompt" rows="4" placeholder="Type prompt here..."></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    
+</div>
+{% endblock %}
+
