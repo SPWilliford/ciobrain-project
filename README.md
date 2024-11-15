@@ -15,6 +15,13 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
+Create and activate a Python virtual environment (Windows)
+
+```
+python -m venv venv
+.\venv\Scripts\activate
+```
+
 3. Install the required dependencies
 ```
 pip install -r requirements.txt
